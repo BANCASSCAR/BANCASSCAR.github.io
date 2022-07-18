@@ -1,5 +1,5 @@
 //change time here (in ms)
-let time = 20000;
+let time = 50000;
 
 //refresh web page
 function refresh() {
