@@ -4,11 +4,11 @@ let time = 50000;
 //refresh web page
 function refresh() {
     const d = new Date();
-    //let hour = d.getHours();
+    let hour = d.getHours();
     let minute = d.getMinutes();
     let second = d.getSeconds();
     //refresh web page
-    if(minute == 55 && second == 0){
+    if(hour == 12 && minute == 0 && second == 0){
         window.location.href = 'https://bancasscar.github.io/';
     }
     setTimeout(function() {refresh()}, 1000);
